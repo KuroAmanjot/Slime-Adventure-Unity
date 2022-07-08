@@ -1,0 +1,473 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.32f1 (12f8b0834f07) revision 1243312'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'en' Physical Memory: 8141 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+D:\unity\2020.3.32f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/unity project/Slime Adventures
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+65298
+Successfully changed project path to: D:/unity project/Slime Adventures
+D:/unity project/Slime Adventures
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 102.71 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.32f1 (12f8b0834f07)
+[Subsystems] Discovering subsystems at path D:/unity/2020.3.32f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/unity project/Slime Adventures/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1660 (ID=0x2184)
+    Vendor:   
+    VRAM:     5991 MB
+    Driver:   30.0.15.1215
+Initialize mono
+Mono path[0] = 'D:/unity/2020.3.32f1/Editor/Data/Managed'
+Mono path[1] = 'D:/unity/2020.3.32f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/unity/2020.3.32f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56068
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/unity/2020.3.32f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/unity/2020.3.32f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001561 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 99.22 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.735 seconds
+Domain Reload Profiling:
+	ReloadAssembly (735ms)
+		BeginReloadAssembly (69ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (583ms)
+			LoadAssemblies (68ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (176ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (253ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (99ms)
+				BeforeProcessingInitializeOnLoad (20ms)
+				ProcessInitializeOnLoadAttributes (95ms)
+				ProcessInitializeOnLoadMethodAttributes (33ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003961 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 101.85 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.497 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1498ms)
+		BeginReloadAssembly (182ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (23ms)
+		EndReloadAssembly (1246ms)
+			LoadAssemblies (120ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (402ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (74ms)
+			SetupLoadedEditorAssemblies (507ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (102ms)
+				BeforeProcessingInitializeOnLoad (122ms)
+				ProcessInitializeOnLoadAttributes (256ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.90 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3707 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 180.1 MB.
+System memory in use after: 178.8 MB.
+
+Unloading 48 unused Assets to reduce memory usage. Loaded Objects now: 4144.
+Total: 5.201100 ms (FindLiveObjects: 0.303800 ms CreateObjectMapping: 0.108400 ms MarkObjects: 3.665000 ms  DeleteObjects: 1.123100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/RF Castle/Animated/lightB01.png
+  artifactKey: Guid(3e9496b1781d224478f1524c4f508f82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RF Castle/Animated/lightB01.png using Guid(3e9496b1781d224478f1524c4f508f82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '260d99654ed3709a564409ec07ae5b6b') in 0.155706 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/TinyRPGTown/Artwork/Sprites/building.png
+  artifactKey: Guid(781a9d9a24eca4965a926dd5464f380c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TinyRPGTown/Artwork/Sprites/building.png using Guid(781a9d9a24eca4965a926dd5464f380c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '039f74e05808dc9c77feb2bc38abbc2b') in 0.023776 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Spine/Editor/spine-unity/Editor/GUI/icon-weights.png
+  artifactKey: Guid(0b1bcb09fa228d049ba3c9ea6a57e1ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spine/Editor/spine-unity/Editor/GUI/icon-weights.png using Guid(0b1bcb09fa228d049ba3c9ea6a57e1ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e73cbb287d56614274dd7cd30398aa5') in 0.012856 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/TinyRPGTown/Artwork/Sprites/hero.png
+  artifactKey: Guid(b62a8e74a325e4493956501c30341010) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TinyRPGTown/Artwork/Sprites/hero.png using Guid(b62a8e74a325e4493956501c30341010) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41c60b771ef51365a6b19480c8c34928') in 0.056032 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/Spine/Editor/spine-unity/Editor/GUI/icon-clipping.png
+  artifactKey: Guid(f5fff1b5caee03642ab77c9984b4bb6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spine/Editor/spine-unity/Editor/GUI/icon-clipping.png using Guid(f5fff1b5caee03642ab77c9984b4bb6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abd5aba228a569d14d99bf18f5d5195c') in 0.013340 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/Spine/Editor/spine-unity/Editor/GUI/icon-skin.png
+  artifactKey: Guid(bfd9f3d2607e9e44c97384d7575a17dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spine/Editor/spine-unity/Editor/GUI/icon-skin.png using Guid(bfd9f3d2607e9e44c97384d7575a17dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd2a602c7e32bacd6b14166a8f9dd882') in 0.013313 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Spine/Editor/spine-unity/Editor/GUI/icon-attachment.png
+  artifactKey: Guid(04ae56b3698d3e844844cfcef2f009e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spine/Editor/spine-unity/Editor/GUI/icon-attachment.png using Guid(04ae56b3698d3e844844cfcef2f009e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6af4ac3e026141a57833431290993119') in 0.012662 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Spine/Editor/spine-unity/Editor/GUI/icon-warning.png
+  artifactKey: Guid(754d724c1bd750048852e8cf3d4a05ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spine/Editor/spine-unity/Editor/GUI/icon-warning.png using Guid(754d724c1bd750048852e8cf3d4a05ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b8f0647c3bc97799e8283a8ad4c8d8e') in 0.013256 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/RF Castle/Animated/lightB02.png
+  artifactKey: Guid(f839d91505d1239419b49813edd167cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RF Castle/Animated/lightB02.png using Guid(f839d91505d1239419b49813edd167cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e68299a57df6fd68f1fad2695908db0') in 0.022054 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Spine/Editor/spine-unity/Editor/GUI/icon-constraintTransform.png
+  artifactKey: Guid(4709175437c21f64bab9b061f98a49fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spine/Editor/spine-unity/Editor/GUI/icon-constraintTransform.png using Guid(4709175437c21f64bab9b061f98a49fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10001cd2019377fae4b04675d2cff06c') in 0.011570 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Spine/Editor/spine-unity/Editor/GUI/icon-subMeshRenderer.png
+  artifactKey: Guid(f31c0c0d608e8ba4f9a1afb032092287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spine/Editor/spine-unity/Editor/GUI/icon-subMeshRenderer.png using Guid(f31c0c0d608e8ba4f9a1afb032092287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fd7d0d7974508d34b993ae78e880e98') in 0.012250 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/Spine/Editor/spine-unity/Editor/GUI/icon-hingeChain.png
+  artifactKey: Guid(2c2c6d283dcf3654baf40001c982891c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spine/Editor/spine-unity/Editor/GUI/icon-hingeChain.png using Guid(2c2c6d283dcf3654baf40001c982891c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57dd4824533cc940873ec945e2289b13') in 0.013757 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/Spine/Editor/spine-unity/Editor/GUI/icon-constraintIK.png
+  artifactKey: Guid(02822eb69e09dd947b434ab81e3d938f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spine/Editor/spine-unity/Editor/GUI/icon-constraintIK.png using Guid(02822eb69e09dd947b434ab81e3d938f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e4965f7bb2896a68214918d63bb23fd') in 0.019764 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/Spine/Editor/spine-unity/Editor/GUI/icon-constraints.png
+  artifactKey: Guid(ed0736a1eb519ef42b4892d1db2426b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spine/Editor/spine-unity/Editor/GUI/icon-constraints.png using Guid(ed0736a1eb519ef42b4892d1db2426b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41e08c57333ab6a352ce1eb826bfbd98') in 0.012210 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/TinyRPGTown/Artwork/Sprites/barrel.png
+  artifactKey: Guid(5b54b64aa03a6418fa2cf8b50928ceb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TinyRPGTown/Artwork/Sprites/barrel.png using Guid(5b54b64aa03a6418fa2cf8b50928ceb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e0b49d674756204ff2413a11e02d0c2') in 0.022837 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Spine/Editor/spine-unity/Editor/GUI/icon-animation.png
+  artifactKey: Guid(52b12ec801461494185a4d3dc66f3d1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spine/Editor/spine-unity/Editor/GUI/icon-animation.png using Guid(52b12ec801461494185a4d3dc66f3d1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd0a4c7e14574b27e0e72793baf1fdf7') in 0.012079 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/Spine/Editor/spine-unity/Editor/GUI/icon-bone.png
+  artifactKey: Guid(8322793223a533a4ca8be6f430256dfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spine/Editor/spine-unity/Editor/GUI/icon-bone.png using Guid(8322793223a533a4ca8be6f430256dfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd32074b6f00a7171be76f98ac092474f') in 0.011288 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/Spine/Editor/spine-unity/Editor/GUI/icon-null.png
+  artifactKey: Guid(d1de1604dfe4cb64c9d31246a8e43c78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spine/Editor/spine-unity/Editor/GUI/icon-null.png using Guid(d1de1604dfe4cb64c9d31246a8e43c78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb1ee5028a938105070026a7de0add02') in 0.012659 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000319 seconds.
+  path: Assets/Spine/Editor/spine-unity/Editor/GUI/icon-mesh.png
+  artifactKey: Guid(a309a2e14638a204091b915126910f45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spine/Editor/spine-unity/Editor/GUI/icon-mesh.png using Guid(a309a2e14638a204091b915126910f45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8839f72d4c6ba70c49e5bd03efbc19fc') in 0.011596 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Spine/Editor/spine-unity/Editor/GUI/icon-boneNib.png
+  artifactKey: Guid(97a43f11e00735147a9dc3dff6d68191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spine/Editor/spine-unity/Editor/GUI/icon-boneNib.png using Guid(97a43f11e00735147a9dc3dff6d68191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e96f75399373845cdaf0b03cd22d4d61') in 0.012828 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Spine/Editor/spine-unity/Editor/GUI/icon-event.png
+  artifactKey: Guid(d226a80acc775714aa78b85e16a00e9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spine/Editor/spine-unity/Editor/GUI/icon-event.png using Guid(d226a80acc775714aa78b85e16a00e9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb2978e383e1033ddca30fd759c5d028') in 0.012703 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/Spine/Editor/spine-unity/Editor/GUI/icon-image.png
+  artifactKey: Guid(2b3a6f35bbaa8414eb51a344743ee641) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spine/Editor/spine-unity/Editor/GUI/icon-image.png using Guid(2b3a6f35bbaa8414eb51a344743ee641) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a37be30a9e1609ce405fbfc916875fa') in 0.012325 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/map/medieval_wood_rough_1k.exr
+  artifactKey: Guid(96c74c0cd56e6d84aa23bb94b7d75ec0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/map/medieval_wood_rough_1k.exr using Guid(96c74c0cd56e6d84aa23bb94b7d75ec0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a480a854a55a8750dde87518ebd57cec') in 0.028446 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/RF Castle/Sliced/mainlevbuild.png
+  artifactKey: Guid(d21555ce72e390f49ba41fd54c373b1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RF Castle/Sliced/mainlevbuild.png using Guid(d21555ce72e390f49ba41fd54c373b1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0031cfc2969823a06dc11897aeb72e5') in 2.462540 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/TinyRPGTown/Artwork/Sprites/chest.png
+  artifactKey: Guid(d08d14a2969b743b1a8b14dc46e0e8fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TinyRPGTown/Artwork/Sprites/chest.png using Guid(d08d14a2969b743b1a8b14dc46e0e8fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01bc3f014714b7eb3dcf0137ea7470af') in 0.015801 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/Spine/Editor/spine-unity/Editor/GUI/icon-path.png
+  artifactKey: Guid(dbc817a6c9e9c5747b7f6261bf5d1d09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spine/Editor/spine-unity/Editor/GUI/icon-path.png using Guid(dbc817a6c9e9c5747b7f6261bf5d1d09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39059fa5b2dbcf270eb3287134b3b5de') in 0.011552 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/Spine/Editor/spine-unity/Editor/GUI/icon-constraintPath.png
+  artifactKey: Guid(c1aae98dd56b14c4b8c25360000b7e9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spine/Editor/spine-unity/Editor/GUI/icon-constraintPath.png using Guid(c1aae98dd56b14c4b8c25360000b7e9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0156e256d175daa36f793488624e123') in 0.012345 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/RF Castle/Animated/lightA01.png
+  artifactKey: Guid(acd060104eda63341b93267260f10b34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RF Castle/Animated/lightA01.png using Guid(acd060104eda63341b93267260f10b34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45fef6763c7ad114e51e66889ac3aac9') in 0.016075 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/Spine/Editor/spine-unity/Editor/GUI/icon-skinsRoot.png
+  artifactKey: Guid(8bd14c7643597a74ba2edc10a5e4c4ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spine/Editor/spine-unity/Editor/GUI/icon-skinsRoot.png using Guid(8bd14c7643597a74ba2edc10a5e4c4ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0959ae5474ba9723d2f68f7a93ac13c6') in 0.013567 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/RF Castle/Animated/lightA03.png
+  artifactKey: Guid(b1a46a9717089a54caa3aa13184e25b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RF Castle/Animated/lightA03.png using Guid(b1a46a9717089a54caa3aa13184e25b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bd7446cea2a0cea647342fb43861f65') in 0.016191 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/Spine/Editor/spine-unity/Editor/GUI/icon-slotRoot.png
+  artifactKey: Guid(4a1646cf39026224c85ecba92d7d6948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spine/Editor/spine-unity/Editor/GUI/icon-slotRoot.png using Guid(4a1646cf39026224c85ecba92d7d6948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2456126bd1e5cf21f93d7947961a45f9') in 0.012456 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/map/medieval_wood_nor_gl_1k.exr
+  artifactKey: Guid(bfd0a8ce3db4be84ba14983f08183a61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/map/medieval_wood_nor_gl_1k.exr using Guid(bfd0a8ce3db4be84ba14983f08183a61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af326ea52bc885ce69f2fa1ae760f2b5') in 0.015118 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/Spine/Editor/spine-unity/Editor/GUI/AtlasAsset Icon.png
+  artifactKey: Guid(3fc714a0dc1cf6b4b959e073fff2844e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spine/Editor/spine-unity/Editor/GUI/AtlasAsset Icon.png using Guid(3fc714a0dc1cf6b4b959e073fff2844e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22653e7ab3d211017ce3ee21358af09c') in 0.017575 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/RF Castle/Sliced/decorative.png
+  artifactKey: Guid(9603be6d9ac69924f945566fb9497bde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RF Castle/Sliced/decorative.png using Guid(9603be6d9ac69924f945566fb9497bde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd32adac04d9e1c690ef8dea63779374c') in 0.899293 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/Spine/Editor/spine-unity/Editor/GUI/icon-skinPlaceholder.png
+  artifactKey: Guid(04c82a4acf7b5244e947f2709ec3a6cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spine/Editor/spine-unity/Editor/GUI/icon-skinPlaceholder.png using Guid(04c82a4acf7b5244e947f2709ec3a6cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd205cbe4547b531b151029d16d6ee45c') in 0.012496 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/TinyRPGTown/Artwork/Sprites/building-inn.png
+  artifactKey: Guid(a1477bedf691446499d9ff854112bf96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TinyRPGTown/Artwork/Sprites/building-inn.png using Guid(a1477bedf691446499d9ff854112bf96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f48384b80a5cadcd5ccc9c2893af020c') in 0.017832 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/RF Castle/decorative.png
+  artifactKey: Guid(029030ab7555c8c4e95178103a2328f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RF Castle/decorative.png using Guid(029030ab7555c8c4e95178103a2328f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3b36e7fed811dbc5878a34c626cce3e') in 0.023074 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Spine/Editor/spine-unity/Editor/GUI/icon-point.png
+  artifactKey: Guid(d7a76922e4dd9fa429da15c018ff127f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spine/Editor/spine-unity/Editor/GUI/icon-point.png using Guid(d7a76922e4dd9fa429da15c018ff127f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4659027d679e549ba102bd56e512d623') in 0.012654 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/TextMesh Pro/Sprites/EmojiOne.png
+  artifactKey: Guid(dffef66376be4fa480fb02b19edbe903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Sprites/EmojiOne.png using Guid(dffef66376be4fa480fb02b19edbe903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0172fd8fcf2af1e4d977e0f9272a9549') in 0.015187 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/TinyRPGTown/Artwork/Sprites/building-thin.png
+  artifactKey: Guid(86823c3252463409989c0bb247d92a60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TinyRPGTown/Artwork/Sprites/building-thin.png using Guid(86823c3252463409989c0bb247d92a60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3393fb4241fa928d99d21e3c9a90389a') in 0.023227 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/Spine/Editor/spine-unity/Editor/GUI/icon-animationRoot.png
+  artifactKey: Guid(3d1be4ea889f3a14b864352fe49a1bde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spine/Editor/spine-unity/Editor/GUI/icon-animationRoot.png using Guid(3d1be4ea889f3a14b864352fe49a1bde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d03c96611f57bb35e457a95fb0a4b75') in 0.012065 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/Spine/Editor/spine-unity/Editor/GUI/icon-boundingBox.png
+  artifactKey: Guid(955aed20030d0504b8a9c6934a5cb47a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spine/Editor/spine-unity/Editor/GUI/icon-boundingBox.png using Guid(955aed20030d0504b8a9c6934a5cb47a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7909095c478779ab48d327f6c2e2ffe0') in 0.011745 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/Spine/Editor/spine-unity/Editor/GUI/icon-skeletonUtility.png
+  artifactKey: Guid(5bb0631368b462047869d8788673cb48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spine/Editor/spine-unity/Editor/GUI/icon-skeletonUtility.png using Guid(5bb0631368b462047869d8788673cb48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85572f87096c2f0d84c20522c64c9324') in 0.013078 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/RF Castle/mainlevbuild.png
+  artifactKey: Guid(389be3483ef26ae4886e2b0a97fdaff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RF Castle/mainlevbuild.png using Guid(389be3483ef26ae4886e2b0a97fdaff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cafd0cc6ac56a42c193d5fc08f395b1') in 0.023128 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Spine/Editor/spine-unity/Editor/GUI/icon-skeleton.png
+  artifactKey: Guid(f2216037084d99d4481810cb521ed96f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spine/Editor/spine-unity/Editor/GUI/icon-skeleton.png using Guid(f2216037084d99d4481810cb521ed96f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5045f90a19e9e531f6aa4f4e8a2935a9') in 0.012046 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/map/medieval_wood_diff_1k.jpg
+  artifactKey: Guid(ee3d6e546c314db4680b4e5c87037124) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/map/medieval_wood_diff_1k.jpg using Guid(ee3d6e546c314db4680b4e5c87037124) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f939c25228fa907534a3b952efa18793') in 0.024687 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/Mantinia Regular SDF.asset
+  artifactKey: Guid(736c7b12f564f3a4caddd641b6d8c135) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/Mantinia Regular SDF.asset using Guid(736c7b12f564f3a4caddd641b6d8c135) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f486f979664824106bd341dfa9f86290') in 0.227411 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/Spine/Editor/spine-unity/Editor/GUI/icon-slot.png
+  artifactKey: Guid(0338faf3e7d93e2478fcbc022d13e081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spine/Editor/spine-unity/Editor/GUI/icon-slot.png using Guid(0338faf3e7d93e2478fcbc022d13e081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8475bd7cf01871735b8ef85fcf2d6570') in 0.013013 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/RF Castle/Animated/lightA02.png
+  artifactKey: Guid(ad339aa190bf36044aabbaad3c69d047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RF Castle/Animated/lightA02.png using Guid(ad339aa190bf36044aabbaad3c69d047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43ec0a12d2007a1aa35f9cebcf44a1d3') in 0.020400 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/Spine/Editor/spine-unity/Editor/GUI/icon-poseBones.png
+  artifactKey: Guid(da6f6d414e43aac46a57cc5a87208db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spine/Editor/spine-unity/Editor/GUI/icon-poseBones.png using Guid(da6f6d414e43aac46a57cc5a87208db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '386d43f89337b137cad533b94f0fa652') in 0.012377 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/RF Castle/Animated/lightB03.png
+  artifactKey: Guid(479445745c71d864090cc2d2289dff5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RF Castle/Animated/lightB03.png using Guid(479445745c71d864090cc2d2289dff5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87953d6691fe6071811741b0084cb58d') in 0.015661 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/Spine/Editor/spine-unity/Editor/GUI/icon-constraintNib.png
+  artifactKey: Guid(de1a4f5ad4bdf1a4ea072c4d59ba87d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spine/Editor/spine-unity/Editor/GUI/icon-constraintNib.png using Guid(de1a4f5ad4bdf1a4ea072c4d59ba87d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f98965bdf17fbba30a3ca114aaaee6ff') in 0.019605 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 419.836252 seconds.
+  path: Assets/assets/Icon.psd
+  artifactKey: Guid(7f27caac8e64e4944b4ccb3024d7d30c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/Icon.psd using Guid(7f27caac8e64e4944b4ccb3024d7d30c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88551d1e69bf21a5f2bc8c90335be651') in 0.030586 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 4.17 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 34 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 106.0 MB.
+System memory in use after: 104.6 MB.
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 4267.
+Total: 6.901200 ms (FindLiveObjects: 0.371500 ms CreateObjectMapping: 0.108600 ms MarkObjects: 5.268900 ms  DeleteObjects: 1.151300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
